@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Grid Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/gridgame.js"></script>
+</head>
+<body>
+    <h1 id="title">Grid Game</h1>
+    <div id="timer_container">
+        <div>Time: <span id="timer_value">00:00</span> Moves: <span id="moves_value">0</span></div>
+    </div>
+    <form id="game_controls">
+        <label for="board_rows">Rows: </label>
+        <input id="board_rows" type="number" min="10" value="50" />
+        <label for="board_columns">Columns: </label>
+        <input id="board_columns" type="number" min="10" value="50" />
+        <label for="cell_size">Cell size (px): </label>
+        <input id="cell_size" type="number" min="10" value="20" />
+
+        <input type="submit" value="Start" />
+    </form>
+    <div id="board_container">
+        <!--Container is used for board styles so that clicks on the canvas border do not register-->
+        <canvas id="board">Your browser does not support HTML5 canvas.</canvas>
+    </div>
+</body>
+</html>

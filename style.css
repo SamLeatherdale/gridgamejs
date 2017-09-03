@@ -1,0 +1,22 @@
+html {
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+#title {
+    color: #1AEEA0;
+    font-size: 18px;
+}
+#timer_container {
+    width:200px;
+    position:fixed;
+    top:0;
+    left:180px;
+    background-color: #E0DEDE;
+    color: #ff00af;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#board_container {
+    display: inline-block;
+    margin: 8px;
+}
