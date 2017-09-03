@@ -77,10 +77,10 @@ class Cell {
 
     static initialize() {
         this.drawData[CellState.Unknown] = new CellDrawData("#FFFFFF", "#000000", "?");
-        this.drawData[CellState.Up] = new CellDrawData("#00FB2A", "#000000", "🡩");
-        this.drawData[CellState.Down] = new CellDrawData("#FBEA00", "#000000", "🡫");
-        this.drawData[CellState.Left] = new CellDrawData("#00F3FB", "#000000", "🡨");
-        this.drawData[CellState.Right] = new CellDrawData("#FB0043", "#FFFFFF", "🡪");
+        this.drawData[CellState.Up] = new CellDrawData("#FFC107", "#000000", "🡩");
+        this.drawData[CellState.Down] = new CellDrawData("#17A2B8", "#000000", "🡫");
+        this.drawData[CellState.Left] = new CellDrawData("#28A745", "#000000", "🡨");
+        this.drawData[CellState.Right] = new CellDrawData("#DC3545", "#FFFFFF", "🡪");
         this.drawData[CellState.Winner] = new CellDrawData("#000000", "#FFD700", "✖");
     }
 
